@@ -156,6 +156,43 @@ The same script can be reused in any directory.
 
 No installation or external software is required.
 
+##Flow
+                 START
+                   │
+                   ▼
+          Find loose files
+                   │
+                   ▼
+          Is it organize.bat?
+             │           │
+            YES          NO
+             │           │
+           Ignore        ▼
+                    Get extension
+                         │
+                         ▼
+                   Classify file
+                    │         │
+                 Unknown    Known
+                    │         │
+                  Ignore      ▼
+                         Create folder
+                         if necessary
+                              │
+                              ▼
+                     Destination exists?
+                        │          │
+                       YES         NO
+                        │          │
+                      Skip         ▼
+                              Move file
+                                  │
+                                  ▼
+                              Next file
+                                  │
+                                  ▼
+                                DONE
+
 ## Requirements
 
 * Windows
