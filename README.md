@@ -1,4 +1,4 @@
-# Auto Directory Organizer
+# Auto Directory / File Organizer
 
 A lightweight Windows batch script that organizes scattered files in any directory based on their file extensions.
 
