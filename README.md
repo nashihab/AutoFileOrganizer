@@ -6,7 +6,7 @@ The script can be placed in any folder and run directly. It only processes loose
 
 ## How it works
 
-Place `autofrag.bat` in any directory containing scattered files.
+Place `autoforg.bat` in any directory containing scattered files.
 
 For example:
 
